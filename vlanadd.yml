@@ -1,0 +1,10 @@
+---
+- hosts: juniper
+  gather_facts: no
+  connection: netconf
+  
+  tasks:
+  - name: configure VLAN ID and name
+    junos_vlan:
+      vlan_id: 40
+      name: testvlankirk
