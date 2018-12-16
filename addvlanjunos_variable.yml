@@ -7,4 +7,3 @@
     junos_vlan:
       vlan_id: "{{ vlan_id }}"
       name: "{{ vlan_name }}"
-	  
